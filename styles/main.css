@@ -214,6 +214,15 @@ fieldset :required{
 	border:2px solid orange;
 }
 
+/* added format for member information fieldset specific label */
+#member label{
+	font-size: 90%;
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0; 
+	
+}
 
 
 
