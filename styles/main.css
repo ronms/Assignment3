@@ -232,4 +232,13 @@ fieldset :required{
 	text-align: right;
 	margin: 0 0 10px 0; 
 
+}
+
+/* added format for order information fieldset specific on input */
+#order input[type="number"]{
+	font-size: 90%;
+	display: inline-block;
+	width: 200px;
+	margin: 0 0 10px 0; 
+}
 
