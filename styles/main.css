@@ -204,6 +204,15 @@ fieldset input{
 	border:1px solid black;
 }
 
+/* added fieldset format for select */
+fieldset select{
+	font-size: 90%;
+}
+
+/* added fieldset format for required input boxes */
+fieldset :required{
+	border:2px solid orange;
+}
 
 
 
