@@ -242,3 +242,14 @@ fieldset :required{
 	margin: 0 0 10px 0; 
 }
 
+/* added format for payment fieldset specific on label - text align, width */
+#payment label{
+	text-align: left;
+	width: 10px;
+}
+
+/* added format for payment fieldset specific on input - width, margin */
+#payment input[type="radio"]{
+	width: 10px;
+	margin: 0 0 0 50px;
+}
