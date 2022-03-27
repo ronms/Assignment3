@@ -224,6 +224,12 @@ fieldset :required{
 	
 }
 
-
+/* added format for order information fieldset specific on label */
+#order label{
+	font-size: 90%;
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0; 
 
 
