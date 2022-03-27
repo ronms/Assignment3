@@ -182,3 +182,30 @@ footer p {
 	font-size: 80%;
 	text-align: center;
 }
+/*For Assignment 3*/
+
+/* added fieldset margin top and bottom  */
+fieldset{
+	margin: 10px 0 10px 0;
+}
+
+/* added fieldset format for legend */
+fieldset legend{
+	margin: 10px 0 10px 0;
+	font-weight: bold;
+	color: grey;
+	font-size: 85%;
+}
+/* added fieldset format for input */
+fieldset input{
+	font-size: 90%;
+	width: 15em;
+	margin: 0 0 10px 10px;
+	border:1px solid black;
+}
+
+
+
+
+
+
