@@ -39,7 +39,7 @@
 				<h1>Order Event Tickets</h1>
 				<!-- The form starts here... -->
 				<form name="order_form" id="order_form" action="place_order.html" method="post">
-				<fieldset>
+				<fieldset id="member">
 					<Legend>
 						Member Information
 					</Legend>
@@ -60,7 +60,7 @@
 					<label for="phone">Phone Number: </label>
 					<input type="text" id="phone" name="phone" title="Enter Phone Number" placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
 				</fieldset>
-				<fieldset>
+				<fieldset id="order">
 					<Legend>
 						Ordering Information
 					</Legend>
@@ -76,11 +76,11 @@
 						<option value="member package">Member Package</option>
 						<option value="donor package">Donor Package</option>
 						<option value="single tickets">Single Tickets</option>
-					</select>
-					<label for="tickets">Number of Tickets: </label>
+					</select><br>
+					<label for="tickets">Number of Tickets:</label>
 					<input type="number" id="tickets" name="tickets" title="Enter Number of Tickets" placeholder="Number of single tickets">
 				</fieldset>
-				<fieldset>
+				<fieldset id="payment">
 					<Legend>
 						Payment Method
 					</Legend>
@@ -89,7 +89,7 @@
 					<input type="radio" name="billme" id="creditcard" value="creditcard">
 					<label for="billme">Credit Card</label>
 				</fieldset>
-				<fieldset>
+				<fieldset id="cardinfo">
 					<Legend>
 						Credit Card Information
 					</Legend>
@@ -98,9 +98,9 @@
 						<option value="visa">Visa</option>
 						<option value="mastercard">Master Card</option>
 						<option value="discover">Discover</option>
-					</select>
+					</select><br>
 					<label for="cardnum">Card Number: </label>
-					<input type="number" id="cardnum" name="cardnum" title="Enter Card Number" maxlength="16" placeholder="16 digits" required>
+					<input type="number" id="cardnum" name="cardnum" title="Enter Card Number" maxlength="16" placeholder="16 digits" required><br>
 					<label for="expirydate">Expiration Date: </label>
 					<select name="month" id="month">
 						<option value="january">January</option>
@@ -126,12 +126,15 @@
 						<option value="2027">2027</option>
 					</select>
 				</fieldset>
-				<fieldset>
+				
+				<fieldset >
 					<Legend>
 						Submit Your Order
 					</Legend>
-					<input type="submit" value="Submit">
-					<input type="reset" value="Reset">
+						<div id="buttons">
+							<input type="submit" value="Submit" class="buttons">
+							<input type="reset" value="Reset" class="buttons">
+						</div>	
 				</fieldset>
 			</form>
 			</main>
