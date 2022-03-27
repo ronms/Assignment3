@@ -38,7 +38,7 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<!-- The form starts here... -->
-				<form name="order_form" id="order_form" action="place_order.html" method="post"></form>
+				<form name="order_form" id="order_form" action="place_order.html" method="post">
 				<fieldset>
 					<Legend>
 						Member Information
@@ -94,12 +94,23 @@
 					<Legend>
 						Credit Card Information
 					</Legend>
+					<label for="cardtype">Card Type: </label>
+					<select name="cardtype" id="cardtype">
+						<option value="visa">Visa</option>
+						<option value="mastercard">Master Card</option>
+						<option value="discover">Discover</option>
+					</select>
+					<label for="cardnum">Card Number: </label>
+					<input type="number" id="cardnum" name="cardnum" title="Enter Card Number" maxlength="16" placeholder="16 digits" required>
 				</fieldset>
 				<fieldset>
 					<Legend>
 						Submit Your Order
 					</Legend>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
 				</fieldset>
+			</form>
 			</main>
 			
 			<footer>
