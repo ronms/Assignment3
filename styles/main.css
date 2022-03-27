@@ -279,3 +279,9 @@ fieldset :required{
 	text-align: center;
 
 }
+
+/* added style for buttons under submit order fieldset - width size */
+#buttons input{
+	width: 10em;
+	
+}
