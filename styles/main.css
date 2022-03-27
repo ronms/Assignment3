@@ -253,3 +253,22 @@ fieldset :required{
 	width: 10px;
 	margin: 0 0 0 50px;
 }
+
+/* added format for card information fieldset specific on label - font size, display, width, text align, margin */
+#cardinfo label{
+	font-size: 90%;
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	margin: 0 0 10px 0;
+}
+
+/* added format for card information fieldset specific on select option (month) - width size */
+#cardinfo #month{
+	width: 7em;
+}
+
+/* added format for card information fieldset specific on select option (year) - width size */
+#cardinfo #year{
+	width: 5em;
+}
