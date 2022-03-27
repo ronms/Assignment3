@@ -272,3 +272,10 @@ fieldset :required{
 #cardinfo #year{
 	width: 5em;
 }
+
+/* added style for div under submit order fieldset - width size, text align */
+#buttons{
+	width: 500px;
+	text-align: center;
+
+}
